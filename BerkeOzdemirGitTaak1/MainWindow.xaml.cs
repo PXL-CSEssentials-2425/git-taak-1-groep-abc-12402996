@@ -20,5 +20,15 @@ namespace BerkeOzdemirGitTaak1
         {
             InitializeComponent();
         }
+
+        private void Image_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Berke.Background = new SolidColorBrush(Colors.White);
+        }
+
+        private void Image_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Berke.Background = new SolidColorBrush(Colors.LightGray);
+        }
     }
 }

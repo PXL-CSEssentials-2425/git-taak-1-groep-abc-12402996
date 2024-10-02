@@ -5,10 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BerkeOzdemirGitTaak1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Background="LightGray">
+        Title="MainWindow" Height="450" Width="800"
+        x:Name="Berke"
+        Background="LightGray">
+
+    <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="83,71,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top"/>
-        <Image Margin="620,30,30,250" Source="/PXL.png" Stretch="Fill"/>
+        <Image Margin="620,30,30,250" Source="PXL.png" Stretch="Fill" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
 
     </Grid>
-</Window>
+</Window>    
+
