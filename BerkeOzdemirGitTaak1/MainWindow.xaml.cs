@@ -30,5 +30,30 @@ namespace BerkeOzdemirGitTaak1
         {
             Berke.Background = new SolidColorBrush(Colors.LightGray);
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Image_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            colourCode.Text = "#008000";
+        }
+
+        private void Image_MouseUp_1(object sender, MouseButtonEventArgs e)
+        {
+            colourCode.Text = "#0000FF";
+        }
+
+        private void Image_MouseUp_2(object sender, MouseButtonEventArgs e)
+        {
+            colourCode.Text = "#FFFF00";
+        }
+
+        private void Image_MouseUp_3(object sender, MouseButtonEventArgs e)
+        {
+            colourCode.Text = "#FF0000";
+        }
     }
 }
