@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -39,21 +40,25 @@ namespace BerkeOzdemirGitTaak1
         private void Image_MouseUp(object sender, MouseButtonEventArgs e)
         {
             colourCode.Text = "#008000";
+            colourInformation.Text = "Groen is de kleur van genezing";
         }
 
         private void Image_MouseUp_1(object sender, MouseButtonEventArgs e)
         {
             colourCode.Text = "#0000FF";
+            colourInformation.Text = "Blauw is de kleur van intelligentie";
         }
 
         private void Image_MouseUp_2(object sender, MouseButtonEventArgs e)
         {
             colourCode.Text = "#FFFF00";
+            colourInformation.Text = "Geel is de kleur van levenslust";
         }
 
         private void Image_MouseUp_3(object sender, MouseButtonEventArgs e)
         {
             colourCode.Text = "#FF0000";
+            colourInformation.Text = "Rood is de kleur van warmte";
         }
     }
 }
